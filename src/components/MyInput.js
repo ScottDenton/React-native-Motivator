@@ -45,7 +45,7 @@ export default class MyInput extends Component {
           value={this.state.income}
         />
         <Text>You earn ${this.state.perMinute} per minute </Text>
-        <Text>You have earnt ${this.state.total.toFixed(2)} so far  </Text>
+        <Text>You have earnt ${this.state.total.toFixed(2)} so far today </Text>
       </View>
 
     );
